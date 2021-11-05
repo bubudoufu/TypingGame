@@ -38,11 +38,11 @@ function keyDown(e) {
       return;
     }
   }
-  // タイピングミス時の処理
+  // タイプ時の処理
   if (e.key !== question[num]) {
     return;
   }
-  // タイピング文字が合っていた時の処理
+  // タイプ文字が合っていた時の処理
   num++;
   word.textContent = "".repeat(num) + question.substring(num);
   // 問題の単語をクリアした時
