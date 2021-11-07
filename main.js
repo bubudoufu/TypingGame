@@ -66,7 +66,7 @@ function keyDown(e) {
 // 文字を動かすアニメーション
 const move = word.animate(
   [{ transform: "translateX(100%)" }, { transform: "translateX(0%)" }],
-  { duration: 15000, Fill: "forwards" }
+  { duration: 15000, fill: "forwards" }
 );
 move.pause();
 
